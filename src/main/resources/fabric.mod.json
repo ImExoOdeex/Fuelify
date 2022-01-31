@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fuelify",
+  "version": "${version}",
+  "name": "Fuelify",
+  "description": "",
+  "authors": [
+    "imexoodeex"
+  ],
+  "contact": {
+    "website": "cebuliony.pl",
+    "repo": "https://github.com/ImExoOdeex"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/fuelify/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "imexoodeex.fuelify.client.FuelifyClient"
+    ],
+    "main": [
+      "imexoodeex.fuelify.Fuelify"
+    ]
+  },
+  "mixins": [
+    "Fuelify.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
