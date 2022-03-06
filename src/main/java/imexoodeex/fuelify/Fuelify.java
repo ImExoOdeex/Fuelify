@@ -1,20 +1,20 @@
 package imexoodeex.fuelify;
 
-import imexoodeex.fuelify.items.Items;
+import imexoodeex.fuelify.register.ItemsRegister;
 import imexoodeex.fuelify.util.Fuel;
+import imexoodeex.fuelify.util.LootTable;
 import net.fabricmc.api.ModInitializer;
-
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Fuelify implements ModInitializer {
     public static final String MOD_ID = "fuelify";
-//    public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
-
-
+    public static final Logger LOGGER = LogManager.getLogger();
 
     @Override
     public void onInitialize() {
-        Fuel.RegisterMod();
+        Fuel.registerFuels();
+        LootTable.modifyLootTables();
+        ItemsRegister.init();
     }
 }

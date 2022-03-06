@@ -1,5 +1,11 @@
 {
   "item.fuelify.magic_powder": "Magiczny proszek",
   "item.fuelify.flaming_coal": "Płomienny węgiel",
-  "item.fuelify.sticks_pile": "Stos patyków"
+  "item.fuelify.sticks_pile": "Stos patyków",
+  "item.fuelify.sawdust": "Trociny",
+  "itemGroup.fuelify.fuelify": "Fuelify",
+  "item.fuelify.sawdust.tooltip.shift": "Hold §a§lSHIFT §ffor more info.",
+  "item.fuelify.sawdust.tooltip": "Used as fuel in furnace.",
+  "item.fuelify.magic_powder.tooltip.shift": "Hold §a§lSHIFT §ffor more info.",
+  "item.fuelify.magic_powder.tooltip": "Used to craft §2§lpellets."
 }

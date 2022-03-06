@@ -3,13 +3,13 @@
   "id": "fuelify",
   "version": "${version}",
   "name": "Fuelify",
-  "description": "",
+  "description": "Fuelify adds various types of fuels which you can use as fuel in furnace!",
   "authors": [
     "imexoodeex"
   ],
   "contact": {
     "website": "cebuliony.pl",
-    "repo": "https://github.com/ImExoOdeex"
+    "repo": "https://github.com/ImExoOdeex/Fuelify"
   },
   "license": "LGPL-3.0",
   "icon": "assets/fuelify/icon.png",
@@ -26,8 +26,8 @@
     "Fuelify.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.12.12",
+    "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "1.18.1"
+    "minecraft": "1.18.2"
   }
 }
