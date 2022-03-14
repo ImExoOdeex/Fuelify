@@ -5,4 +5,6 @@ public class ItemsNames {
     public static final String STICKS_PILE = "sticks_pile";
     public static final String FLAMING_COAL = "flaming_coal";
     public static final String MAGIC_POWDER = "magic_powder";
+    public static final String WOOD_PELLETS = "wood_pellets";
+
 }

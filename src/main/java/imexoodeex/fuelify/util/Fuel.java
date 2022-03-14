@@ -11,7 +11,9 @@ public class Fuel {
         registry.add(ItemsRegister.magic_powder, 250 * 20);
         registry.add(ItemsRegister.flaming_coal, 160 * 20);
         registry.add(ItemsRegister.sticks_pile, 50 * 20);
-        registry.add(ItemsRegister.sawdust, 5 * 20);
+        registry.add(ItemsRegister.sawdust, 75);
+        registry.add(ItemsRegister.wood_pellets, 8 * (75));
+
 
         //vanilla items
         registry.add(net.minecraft.item.Items.WHEAT, 20 * 20);

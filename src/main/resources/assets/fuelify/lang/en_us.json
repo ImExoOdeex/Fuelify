@@ -1,11 +1,12 @@
 {
+  "itemGroup.fuelify.fuelify": "Fuelify",
   "item.fuelify.magic_powder": "Magic powder",
   "item.fuelify.flaming_coal": "Flaming coal",
   "item.fuelify.sticks_pile": "Sticks pile",
   "item.fuelify.sawdust": "Sawdust",
-  "itemGroup.fuelify.fuelify": "Fuelify",
-  "item.fuelify.sawdust.tooltip.shift": "Hold §a§lSHIFT §ffor more info.",
-  "item.fuelify.sawdust.tooltip": "Used as fuel in furnace.",
-  "item.fuelify.magic_powder.tooltip.shift": "Hold §a§lSHIFT §ffor more info.",
-  "item.fuelify.magic_powder.tooltip": "Used to craft §2§lpellets."
+  "item.fuelify.wood_pellets": "Wood pellets",
+  "block.fuelify.magic_flower": "Magic flower",
+  "flower": "Magic §dflower §fused to collect §3Fuel",
+  "tooltipKeyShift": "Hold §a§lSHIFT§f for more info",
+  "tooltipKeyCtrl": "§kAMOGUS FROM IMPOSTOR"
 }

@@ -20,6 +20,9 @@
     ],
     "main": [
       "imexoodeex.fuelify.Fuelify"
+    ],
+    "terrablender": [
+      "imexoodeex.fuelify.biome.TerraBlender"
     ]
   },
   "mixins": [

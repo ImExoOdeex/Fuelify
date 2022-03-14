@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fuelify:sawdust"
+    },
+    {
+      "item": "fuelify:sawdust"
+    },
+    {
+      "item": "fuelify:sawdust"
+    },
+    {
+      "item": "fuelify:sawdust"
+    },
+    {
+      "item": "fuelify:sawdust"
+    },
+    {
+      "item": "fuelify:sawdust"
+    }
+  ],
+  "result": {
+    "item": "fuelify:wood_pellets"
+  }
+}

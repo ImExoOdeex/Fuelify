@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "clicked=false": { "model":  "fuelify:block/magic_flower_close"},
+    "clicked=true": { "model":  "fuelify:block/magic_flower_open"}
+  }
+}
